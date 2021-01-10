@@ -41,4 +41,16 @@ h4
     color: rgb(184, 52, 52);
 }
 
+.profile-picture
+{
+
+    border-radius: 100%;
+}
+
+.profile-picture:hover
+{
+    border-radius: 0%;
+    
+}
+
 /*******id selectors***************/
