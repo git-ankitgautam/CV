@@ -1,58 +1,193 @@
-/******tag selectores***********/
-body 
+a
 {
-    background-color:#E3FDFD;
+    color: #11999E;
+    display: inline-block;
 }
 
-hr 
+body
 {
-    border-color: blue;
+    margin: 0;
+    text-align: center; 
+    font-family: Helvetica, Arial, sans-serif;   
+}
+
+h1
+{
+    color: #DF711B;
+    margin-top: 0;
+}
+
+h2
+{
+    color: #66BFBF;
+}
+
+h3
+{
+    color: #11999E;
+    margin-bottom: 0;
+}
+
+hr
+{
+    border-color: #DF711B;
     border-style: none;
     border-top-style: dotted;
-    border-width: 4px;
-    size: 2px;
-    width: 20%;
-    margin: 20px auto;
+    border-width: 0.25rem;
+    size: 0.25rem;
+    width: 15%;
 }
 
-img 
+li
 {
-    height:240px;
-    width:240px;
-    
+    width: 20rem;
 }
 
-h1 
+ul
 {
-    color: #063970;
+    display: inline-block;
+    line-height: 1.5;
+    margin: auto;
+    margin-bottom: 1.5rem;
+    text-align: left;
 }
 
-h3 
+
+.bottom-container
 {
-    color: #063970;
-
+    margin-top: 0;
+    background-color: #9DDAC6;
+    padding-top: 0.5rem;
 }
 
-h4 
+.bottom-cloud
 {
-    color: #063970;
+    position:absolute;
+    left: 20%;
+
 }
-/******Class selectores***********/
+
+.coding-img
+{
+    display:relative;
+    margin-top: 5rem;
+    border-radius: 100%;
+    float: left;
+    margin-right: 2rem;
+}
+
+.coding-img:hover
+{
+    border-radius: 0;
+}
+
+.contact-me
+{
+    clear: right;
+}
+
+.future
+{
+    text-decoration: underline;
+}
+
+.git
+{
+    display: block;
+}
+
+.gitpara
+{
+    margin: 0;
+    margin-top: 1rem;
+}
+
+.intro
+{
+    font-size: 1.5rem;
+    font-weight: normal;
+    line-height: 2;
+}
+
+.icon
+{
+    display: inline-block;
+    height: 1.2rem;
+    width: 1.2rem;
+}
+
+.icons-table
+{
+    border: none;
+    display: inline-block;
+}
+
+.hey
+{
+    line-height: 3;
+}
+
+.middle-container
+{
+    background-color: #E9E9E9;
+}
+
 .my-name
 {
-    color: rgb(184, 52, 52);
+    font-family: 'Patrick Hand', cursive;
+    font-size: 4.5rem;
+    font-weight: 100;
+    margin-bottom: 0;
 }
 
-.profile-picture
+.myphoto
 {
-
     border-radius: 100%;
+    height: 250px;
+    width: 250px;
+    margin-top: 2rem;
 }
 
-.profile-picture:hover
+.myphoto:hover
 {
-    border-radius: 0%;
-    
+    border-radius: 0;
 }
 
-/*******id selectors***************/
+.skill-row
+{
+    line-height: 2;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.top-container
+{
+    margin:0px;
+    background-color: #64C9CF;
+    padding-top: 100px;
+    width: 100%;
+}
+
+.top-cloud
+{
+    position: absolute;
+    right: 17%;
+    bottom: 90%;
+}
+
+.video-edit-img
+{
+    border-radius: 100%;
+    float: right;
+    height: 200px;
+    width: 200px;
+    margin-left: 2rem;;
+}
+
+.video-edit-img:hover
+{
+    border-radius: 0;
+}
